@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <label for="temperatura">Temperatura:</label>
+      <input
+        type="number"
+        name="temperatura"
+        id="temperatura"
+        placeholder="digite a temperatura"
+      />
+
+      <label for="tempOrigem">De:</label>
+      <select id="tempOrigem">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenhiete">Fahrenhiete</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+
+      <label for="tempdest">Para:</label>
+      <select id="tempdest">
+        <option value="celsius">Celsius</option>
+        <option value="fahrenhiete">Fahrenhiete</option>
+        <option value="kelvin">Kelvin</option>
+      </select>
+      <button onclick="conversao()">Converter</button>
+    </main>
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
