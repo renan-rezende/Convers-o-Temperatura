@@ -8,7 +8,7 @@ function conversao() {
     if (tempdest === "°F") {
       tempConvertida = temperatura * (9 / 5) + 32;
     } else if (tempdest === "°K") {
-      tempConvertida = temperatura + 273;
+      tempConvertida = temperatura + 273.15;
     } else {
       tempConvertida = temperatura;
     }
