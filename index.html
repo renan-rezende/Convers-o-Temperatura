@@ -8,8 +8,8 @@
     <title>Document</title>
   </head>
   <body>
-    <section>
-    <main>
+    <div class="container">CONVERSOR DE TEMPERATURA</div>
+    <main class="main">
       <label for="temperatura">Temperatura:</label>
       <input
         type="number"
@@ -21,20 +21,19 @@
       <label for="tempOrigem">De:</label>
       <select id="tempOrigem">
         <option value="°C">Celsius</option>
-        <option value="°F">Fahrenheit</option>
+        <option value="°F">Fahrenhiete</option>
         <option value="°K">Kelvin</option>
       </select>
 
       <label for="tempdest">Para:</label>
       <select id="tempdest">
         <option value="°C">Celsius</option>
-        <option value="°F">Fahrenheit</option>
+        <option value="°F">Fahrenhiete</option>
         <option value="°K">Kelvin</option>
       </select>
-      <button onclick="conversao()">Converter</button>
+      <button onclick="conversao()">CONVERTER</button>
+      <p id="resultado"></p>
     </main>
-    <p id="resultado" style=" color:rgb(87, 87, 87)">"0°C = 273°K"</p>
-</section>
 
     <script src="script.js"></script>
   </body>
