@@ -1,5 +1,89 @@
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label,
+input,
+select,
+button{
+    margin-left: 1vh;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+button {
+   
+    background-color: #f75639;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+  
+    background-color: #FF4500;
+  }
+
+  select {
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('caminho-para-a-imagem-da-seta.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 25px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  input {
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  p{
+    width:60vh;
+    margin-top: 4vh;
+    margin-left: 30vh;
+    padding: 4vh;
+    padding-left: 15vh;
+    background-color:rgb(119, 155, 223);
+    border-radius: 10px;
+    font-size: larger;
+  }
+
+  section{
+    background-color: rgb(245, 209, 166);
+    padding: 3vh;
+    border-radius: 10px;
+   
+  }
+
+  main{
+    margin-top: 2vh;
+  }
